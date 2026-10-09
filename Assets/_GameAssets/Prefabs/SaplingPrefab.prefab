@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3890674058488310466
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 55.39729
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9854
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -42.66853
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7072302
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7069834
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ddb1842f19fd5d2449de69f8e4a13539, type: 2}
+    - target: {fileID: 919132149155446097, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      propertyPath: m_Name
+      value: SaplingPrefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 5503814827147123711}
+  m_SourcePrefab: {fileID: 100100000, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+--- !u!1 &4125045061094791059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6a9073e423ed9e246b2975224a08b49a, type: 3}
+  m_PrefabInstance: {fileID: 3890674058488310466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5503814827147123711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125045061094791059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec54dd2566bafa42884dd49806cbeff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaplingController
+  _growthDuration: 20
+  _treeVarieties:
+  - {fileID: 3979765840261374980, guid: 9683af4dd8c82ea48b2c4c4b36b81c92, type: 3}
+  - {fileID: 2981476524794642032, guid: 3e821543410b2b647815f2ff60baf5b5, type: 3}
+  - {fileID: 7515637474480974464, guid: 08c97e50b7d0eb14a995773dbea02c0d, type: 3}
+  - {fileID: 8213036616706394108, guid: ea5c2b3525b65544c94a4a92eaeedaaa, type: 3}
+  - {fileID: 8351247581672062674, guid: 39757a17ca11ce842b8a2a75a3b32f7a, type: 3}
+  _fullGrowthBonus: 10
